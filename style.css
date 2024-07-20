@@ -1,0 +1,155 @@
+/* desktop screen */
+@media(max-width: 2280px){
+    body{
+        background-color: #d38766;
+        display:flex;
+        flex-direction: column;
+        color: black;
+    }
+
+    .picContainer{
+        height:40vh;
+        background-image: url("images/cactus.jpg");
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+/* this adds & changes the text in title container */
+    .title:after{
+        content: "Cactus"
+    }
+    .plant1{
+        background-image: url("images/cactus1.jpg");
+        background-size: cover;
+    }
+    .plant2{
+        background-image: url("images/cactus2.jpg");
+        background-size: cover;
+    }
+    .plant3{
+        background-image: url("images/cactus3.jpg");
+        background-size: cover;
+    }
+    .plant4{
+        background-image: url("images/cactus4.jpg");
+        background-size: cover;
+    }
+    .plant5{
+        background-image: url("images/cactus5.jpg");
+        background-size: cover;
+    }
+}
+/* Mid screen */
+@media(max-width: 1280px){
+    body{
+        background-color: #B5C18E;
+        display:flex;
+        flex-direction:column;
+        color: black;
+    }
+    .picContainer{
+        height:40vh;
+        background-image: url("images/monstera.jpg");
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+ 
+    .title::after{
+        content: "Monstera"
+    }
+  
+    .plant1{
+        background-image: url("images/monstera1.jpg");
+        background-size: cover;
+    }
+    .plant2{
+        background-image: url("images/monstera2.jpg");
+        background-size: cover;
+    }
+    .plant3{
+        background-image: url("images/monstera3.jpg");
+        background-size: cover;
+    }
+    .plant4{
+        background-image: url("images/monstera4.jpg");
+        background-size: cover;
+    }
+    .plant5{
+        background-image: url("images/monstera5.jpg");
+        background-size: cover;
+    }
+}
+
+/* mobile screen */
+@media(max-width: 880px){
+    body{
+        background-color: pink;
+        display:flex;
+        flex-direction:column;
+        color: black;
+        min-width:470px;
+    }
+    .picContainer{
+        height:40vh;
+        background-image: url("images/philodendron.jpg");
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .title::after{
+        content: "Philodendron"
+    }   
+
+    .plant1{
+        background-image: url("images/philo1.jpg");
+        background-size: cover;
+    }
+    .plant2{
+        background-image: url("images/philo2.jpg");
+        background-size: cover;
+    }
+    .plant3{
+        background-image: url("images/philo3.jpg");
+        background-size: cover;
+    }
+    .plant4{
+        background-image: url("images/philo4.jpg");
+        background-size: cover;
+    }
+    .plant5{
+        background-image: url("images/philo5.jpg");
+        background-size: cover;
+    }
+}
+
+/* general CSS */
+.titleContainer{
+    height:10vh;
+    margin:1em;
+    padding-top:20px;
+    font-size:50px;
+    font-weight:bolder;
+    text-align: center;
+    background-color: white;
+    border-radius:30px;
+    opacity: 0.5}
+.picContainer{
+    height:40vh;   
+    margin: 1em;
+}
+.sectionContainer{
+    height:40vh;
+
+}
+.sectionContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.sectionContainer>div{
+    width:150px;
+    height:150px;
+}
